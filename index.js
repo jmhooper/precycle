@@ -6,7 +6,7 @@ var EVENTS = {
   Tuesday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=dG1wYXFzbTlscWc2dThnYjVkdWEwYWFnMWtfMjAxNzAyMDdUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
   Wednesday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=dHNlcWVuMmp0dHRsMGlkY3JmM2lwaGU3ZGtfMjAxNzAyMDhUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
   Thursday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MnNpaGZkOHRxMGdjZjVyajg0aHYzY2c2YmdfMjAxNzAyMDlUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
-  Friday: "www.example.com",
+  Friday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=YTNsMWw5bmoybTZyNmxvcTg1NjZvZDY5cG9fMjAxNzAyMTBUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
   Saturday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=ZnE1M2VoNXFmdnY4cmtvdmIyamcwbGEzY28gZmxjMnZqZzd0NmoycTNjOGZyaHJwcmdhc2dAZw&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
 }
 
