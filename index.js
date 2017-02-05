@@ -44,9 +44,9 @@ function dataFetched(response) {
   })
   var day = layer.attributes["Recycling Pickup Schedule"]
   results = "<h3>Pickup Day: " + day + "</h3>"
-  results = results + "<p><a href='" + EVENTS[day] + "'>Click here to add a calendar event.</a></p>"
+  results = results + "<p><a target='_blank' href='" + EVENTS[day] + "'>Click here to add a calendar event.</a></p>"
   results = results + "<h3>Dropoff Day For Glass & Electronics: Monthly </h3>"
-  results = results + "<p><a href='https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXY1cXVxcjQ0YXZqMXIxZDZnOGV2OWRobzRfMjAxNzAyMTFUMTQwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com'>Click here to add a calendar event.</a></p>"
+  results = results + "<p><a target='_blank' href='https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MXY1cXVxcjQ0YXZqMXIxZDZnOGV2OWRobzRfMjAxNzAyMTFUMTQwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com'>Click here to add a calendar event.</a></p>"
   $("#results").html(results)
 }
 
