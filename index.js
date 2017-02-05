@@ -2,7 +2,7 @@ var ADDRESS_URL_TEMPLATE = "http://gis.nola.gov/arcgis/rest/services/CompositePI
 var DATA_URL_TEMPLATE = "http://gis.nola.gov/arcgis/rest/services/apps/WhereYat/MapServer/identify?geometry={x:{{x}},y:{{y}}}&geometryType=esriGeometryPoint&layers=all&tolerance=2&mapExtent=-10024926.71438405,3499735.513523042,-10024916.71438405,3499745.513523042&imageDisplay=20,20,96&returnGeometry=false&f=json"
 
 var EVENTS = {
-  Monday: "./ics/Monday.ics",
+  Monday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=c2FsMGEyOWI3bnVkOXVzcXA2b25nbzBuazRfMjAxNzAyMDZUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
   Tuesday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=dG1wYXFzbTlscWc2dThnYjVkdWEwYWFnMWtfMjAxNzAyMDdUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
   Wednesday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=dHNlcWVuMmp0dHRsMGlkY3JmM2lwaGU3ZGtfMjAxNzAyMDhUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
   Thursday: "https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MnNpaGZkOHRxMGdjZjVyajg0aHYzY2c2YmdfMjAxNzAyMDlUMTAwMDAwWiBmbGMydmpnN3Q2ajJxM2M4ZnJocnByZ2FzZ0Bn&amp;tmsrc=flc2vjg7t6j2q3c8frhrprgasg%40group.calendar.google.com",
