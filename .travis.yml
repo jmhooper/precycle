@@ -1,0 +1,14 @@
+language: ruby
+script: _scripts/build.sh
+sudo: required
+rvm:
+- 2.4.0
+before_deploy:
+- bundle install
+- sudo pip install awscli
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: _scripts/deploy.sh
+  on:
+    branch: master

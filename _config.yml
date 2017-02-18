@@ -1,0 +1,7 @@
+kramdown:
+  smart_quotes: ["apos","apos","quot","quot"]
+exclude:
+- Gemfile
+- Gemfile.lock
+- REAMDE.md
+- vendor/
